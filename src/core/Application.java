@@ -25,6 +25,8 @@ public class Application {
             lax3 = lax1.mergeWithFlight(lax2);
         }
 
-        System.out.println(lax3.getPassengers());
+        if(lax3!=null) {
+            System.out.println(lax3.getPassengers());
+        }
     }
 }
