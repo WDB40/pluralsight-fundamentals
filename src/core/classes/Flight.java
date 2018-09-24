@@ -1,3 +1,5 @@
+package core.classes;
+
 public class Flight {
 
     private int passengers;
